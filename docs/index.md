@@ -12,7 +12,7 @@ hero:
     - theme: brand
       text: 开始
       link: /getting-started
-   - theme: alt
+    - theme: alt
       text: GitHub
       link: https://github.com/Yiov/vitepress-doc
     - theme: sponsor
