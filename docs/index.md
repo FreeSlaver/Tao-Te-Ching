@@ -3,18 +3,18 @@ layout: home
 
 hero:
   name: JavaClass
-  text: "Java课堂"
-  tagline: 如果你也想搭建它，那跟我一起做吧
+  text: "道德经"
+  tagline: 最专业最前面的道德经交流社区
   image:
     src: /logo.png
-    alt: JavaClass
+    alt: 道德经
   actions:
     - theme: brand
       text: 开始
       link: /getting-started
     - theme: alt
       text: GitHub
-      link: https://github.com/Yiov/vitepress-doc
+      link: https://github.com/FreeSlaver
     - theme: sponsor
       text: 搭建导航
       link: /nav/

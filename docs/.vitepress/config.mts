@@ -8,7 +8,7 @@ import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepre
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "VitePress",
+  title: "道德经",
   description: "我的vitpress文档教程",
 
   // #region fav
@@ -121,40 +121,11 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '🍉指南',
+        text: '🍉原文',
         items: [
-          {
-            // 分组标题1
-            text: '介绍',
-            items: [
-              { text: '前言', link: '/preface' },
-            ],
-          },
-          {
-            // 分组标题2
-            text: '基础设置',
-            items: [
-              { text: '快速上手', link: '/getting-started' },
-              { text: '配置', link: '/configuration' },
-              { text: '页面', link: '/page' },
-              { text: 'Frontmatter', link: '/frontmatter' },
-            ],
-          },
-          {
-            // 分组标题3
-            text: '进阶玩法',
-            items: [
-              { text: 'Markdown', link: '/markdown' },
-              { text: '团队', link: '/team' },
-              { text: '静态部署', link: '/assets' },
-              { text: '样式美化', link: '/style' },
-              { text: '组件', link: '/components' },
-              { text: '布局插槽', link: '/layout' },
-              { text: '插件', link: '/plugin' },
-              { text: '更新及卸载', link: '/update' },
-              { text: '搭建导航', link: '/nav/' },
-            ],
-          },
+              { text: '帛书版', link: '/silk-book-edition' },
+              { text: '通行版', link: '/general-edition' },
+              { text: '郭店楚简版', link: '/chu-bamboo-edition' },
         ],
       },
       { text: `VitePress ${ devDependencies.vitepress.replace('^','') }`, link: 'https://vitepress.dev/zh/', noIcon: true },
