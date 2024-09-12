@@ -134,53 +134,6 @@ export default defineConfig({
 
 
     //侧边栏
-    sidebar: [
-      {
-        //分组标题1
-        text: '介绍',
-        collapsed: false,
-        items: [
-          { text: '前言', link: '/preface' },
-        ],
-      },
-      {
-        //分组标题2
-        text: '基础配置',
-        collapsed: false,
-        items: [
-          { text: '快速上手', link: '/getting-started' },
-          { text: '配置', link: '/configuration' },
-          { text: '页面', link: '/page' },
-          { text: 'Frontmatter', link: '/frontmatter' },
-        ],
-      },
-      {
-        //分组标题3
-        text: '进阶玩法',
-        collapsed: false,
-        items: [
-          { text: 'Markdown', link: '/markdown' },
-          { text: '团队', link: '/team' },
-          { text: '静态部署', link: '/assets' },
-          { text: '样式美化', link: '/style' },
-          { text: '组件', link: '/components' },
-          { text: '布局插槽', link: '/layout' },
-          { text: '插件', link: '/plugin' },
-          { text: '更新及卸载', link: '/update' },
-          { text: '搭建导航', link: '/nav/' },
-        ],
-      },
-      {
-        //分组标题3
-        text: '其他站点',
-        collapsed: false,
-        items: [
-          { text: 'VuePress', link: 'https://vuepress.yiov.top/' },
-          { text: '劝学录教程', link: 'https://yiov.top/' },
-          { text: '个人主页', link: 'https://yingyayi.com/' },
-        ],
-      },
-    ],
 
 
 
