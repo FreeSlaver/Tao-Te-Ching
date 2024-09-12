@@ -121,15 +121,26 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '🍉原文',
+        text: '🍉道德经全文',
         items: [
               { text: '帛书版', link: '/silk-book-edition' },
               { text: '通行版', link: '/general-edition' },
               { text: '郭店楚简版', link: '/chu-bamboo-edition' },
         ],
       },
-      { text: `VitePress ${ devDependencies.vitepress.replace('^','') }`, link: 'https://vitepress.dev/zh/', noIcon: true },
-      {text: '更新日志', link: '/changelog.md'},
+      {
+              text: '🙏名家注解',
+              items: [
+                    { text: '白话文翻译', link: '/explain/bai-hua-wen' },
+                    { text: '王弼注解', link: '/explain/wang-bi' },
+                    { text: '河上公注解', link: '/explain/river-god' },
+                    { text: '吕洞宾注解', link: '/explain/lv-dong-bin' },
+                    { text: '韩非子解老，喻老', link: '/explain/lv-dong-bin' },
+                    { text: '吕洞宾注解', link: '/explain/lv-dong-bin' },
+              ],
+            },
+
+      {text: '😊免费交流群', link: '/group.md'},
     ],
 
 
