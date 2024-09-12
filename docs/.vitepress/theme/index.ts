@@ -32,6 +32,7 @@ import bsz from "./components/bsz.vue"
 
 
 export default {
+  ignoreDeadLinks: true,
   extends: DefaultTheme,
 
   enhanceApp({app , router }) {
