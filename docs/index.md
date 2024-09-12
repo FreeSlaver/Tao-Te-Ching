@@ -12,14 +12,14 @@ hero:
     - theme: brand
       text: 开始
       link: /getting-started
-<!-- 
+
    - theme: alt
       text: GitHub
       link: https://github.com/Yiov/vitepress-doc
     - theme: sponsor
       text: 搭建导航
       link: /nav/
--->
+
 
 features:
   - icon: 📝
