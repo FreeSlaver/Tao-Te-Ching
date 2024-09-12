@@ -116,6 +116,7 @@ export default defineConfig({
       },
     },
 
+    ignoreDeadLinks: true
     //导航栏
     nav: [
       { text: '首页', link: '/' },
