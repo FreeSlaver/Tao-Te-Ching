@@ -9,7 +9,7 @@ import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepre
 export default defineConfig({
   lang: 'zh-CN',
   title: "道德经",
-  description: "我的vitpress文档教程",
+  description: "最专业最全面的道德经交流社区",
 
   // #region fav
   head: [
@@ -136,11 +136,12 @@ export default defineConfig({
                     { text: '河上公注解', link: '/explain/river-god' },
                     { text: '吕洞宾注解', link: '/explain/lv-dong-bin' },
                     { text: '韩非子解老，喻老', link: '/explain/lv-dong-bin' },
-                    { text: '吕洞宾注解', link: '/explain/lv-dong-bin' },
+                    { text: '苏澈注解', link: '/explain/lv-dong-bin' },
               ],
             },
-
-      {text: '😊免费交流群', link: '/group.md'},
+      {text: '👀精选文章', link: '/article/'},
+      {text: '👽以股入道', link: '/stock-tao.md'},
+      {text: '😊交流群', link: '/group.md'},
     ],
 
 
@@ -156,8 +157,8 @@ export default defineConfig({
           zh: {
             translations: {
               button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
+                buttonText: '搜索',
+                buttonAriaLabel: '搜索'
               },
               modal: {
                 noResultsText: '无法找到相关结果',
@@ -197,10 +198,10 @@ export default defineConfig({
 
 
     //页脚
-    footer: {
+/*     footer: {
       message: 'Released under the MIT License.',
       copyright: `Copyright © 2023-${new Date().getFullYear()} 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">京****号</a>`,
-    },
+    }, */
 
 
     //侧边栏文字更改(移动端)

@@ -4,7 +4,7 @@ layout: home
 hero:
   name: JavaClass
   text: "道德经"
-  tagline: 最专业最前面的道德经交流社区
+  tagline: 最专业最全面的道德经交流社区
   image:
     src: /logo.png
     alt: 道德经
